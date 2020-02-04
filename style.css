@@ -38,7 +38,7 @@
     }
     .contact{
         height: 40px;
-        font-size: large;
+        font-size: medium;
     }
 
     #linkedin{
@@ -55,7 +55,7 @@
     }
 
     #resume{
-        background-color: black;
+        background-color: rgba(29, 22, 22, 0.932);
         height: 156px;
         padding: 0px;
     }
@@ -190,8 +190,10 @@
       }
       
       a:hover {
-        text-decoration: underline;
+        color: red;
+        text-decoration: none;
       }
       
       a:active {
-        text-decoration: underline;
+        text-decoration: none;
+    }
