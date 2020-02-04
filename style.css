@@ -1,0 +1,169 @@
+    /**Style Sheet*/
+
+
+    .container{
+    width: 100%;
+    margin-top: 0px;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    padding: 20px;
+    }
+    
+    .nav-link{
+        float: left;
+    }
+    
+    #picture{
+        height: 300px;
+        width: 250px;
+        float: left;
+        margin: 20px 20px 5px 0px;
+    }
+    
+    body{
+        background-image: url(pictures/backgroundwhite.jpeg);
+        margin: 0;
+        padding: 0;
+    }
+    
+    #linkbox{
+        background-color: white;
+        margin: 20px 288px;
+        padding: 20px;
+        max-width: 960px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #linkedin{
+
+    }
+
+    #resume{
+
+    }
+
+    #github{
+        
+    }
+
+    .whitebox {
+        background-color: white;
+        overflow: auto;
+        margin: 20px 288px;
+        padding: 20px;
+        max-width: 960px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+    
+    footer {
+        border-top: 8px solid red;
+        color: white;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 40px;
+        text-align: center;
+        background: blue;
+    }
+    
+    p{
+        text-indent: 50px;
+        margin: 0px 0px 16px;
+        padding: 0px 20px;
+    }
+    
+    .links{
+        text-align: center;
+        display: inline;
+        margin: auto;
+    }
+    
+    .name {
+        background-color: blue;
+    }
+    
+    #myName{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: white;
+        margin: auto;
+    }
+    
+    h2{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-align: left;
+        color: blue
+    }
+    
+    li{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: red;
+        font-size: large;
+        /* margin: auto; */
+    }
+
+    
+    #hangman{
+        height: 250px;
+        width: 250px;
+    }
+    
+    #rpggame{
+        height: 250px;
+        width: 250px;
+     }
+    
+     #trivia{
+        height: 250px;
+        width: 250px;
+     }
+    
+     #rutgersinfowidget{
+        height: 250px;
+        width: 250px;
+     }
+    
+     #rockpaperscissors{
+        height: 250px;
+        width: 250px;
+     }
+    
+     .content-holder {
+        display: flex;
+        margin: 15px;
+      }
+      
+    .row {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+      }
+      
+      .column {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 100%;
+        flex: 1;
+      }
+      
+      .third-column {
+        height: 580px;
+        width: 250px;
+      }
+      
+      .second-column {
+        height: 580px;
+        width: 250px;
+      }
+      
+      .first-column {
+        height: 580px;
+        width: 250px;
+      }
+    
